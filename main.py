@@ -4,7 +4,6 @@ from hangman_art import logo
 from hangman_art import stages
 print(logo)
 chosen_word= random.choice(words)
-print(chosen_word)
 display=[]
 underscore="_"
 lives=6
